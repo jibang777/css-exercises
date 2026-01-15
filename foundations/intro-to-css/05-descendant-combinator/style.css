@@ -1,1 +1,38 @@
 /* Add CSS Styling */
+/* Nested Selector */
+.container .text{
+    background: #ffff00;
+    color: #E00000;
+    font size: 20px;
+    text-align: center;
+} 
+
+/* Class and Type Selector */
+ /* .container p{
+   background: #ffff00;
+    color: #ff0000;
+    font size: 20px;
+    text-align: center; 
+  */
+  
+/* Find div Combine Type and Class for max security */
+/* div.container p{
+    background: #ffff00;
+    color: #ff0000;
+    font-size: 20px;
+    text-align: center; 
+} */
+
+/* Class and Type Selector */
+/* .container > p{
+    background: #ffff00;
+    color: #ff0000;
+    font-size: 20px;
+    text-align: center; 
+} */
+
+/* Other possibilities
+    div p
+    div .text
+    .container p
+*/
